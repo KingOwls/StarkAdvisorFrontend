@@ -1,0 +1,5 @@
+{
+    "conventionalCommits.scopes": [
+        "SCRUM-12 test(responsabilidad-financiera): validaciones en la aceptación   SCRUM-203 feat(foto-perfil): subida y guardado de imagen  SCRUM-213 feat(tema-visual): personalización de colores y fuentes"
+    ]
+}

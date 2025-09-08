@@ -3,6 +3,31 @@ import CryptoChart from "./components/CryptoChart";
 import NewsSection from "./components/NewsSection";
 import "./App.css";
 
+import AuthForm from './components/AuthForm';
+import RegistrationForm from './components/RegistrationForm';
+import MarketSection from './components/MarketSection';
+import ProfileSection from './components/ProfileSection';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import './styles/App.css';
+
+const App: React.FC = () => {
+  return (
+    <div className="app">
+      <Header />
+      <main>
+        <AuthForm />
+        <RegistrationForm />
+        <MarketSection />
+        <ProfileSection />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+export default App;
+
+
 type TabType = "Acciones" | "ETFs" | "Forex";
 
 type MarketEntry = {
